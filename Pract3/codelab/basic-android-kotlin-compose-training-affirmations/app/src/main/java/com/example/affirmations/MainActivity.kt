@@ -69,7 +69,7 @@ private fun AffirmationList(affirmationList: List<Affirmation>, modifier: Modifi
 
 @Composable
 fun AffirmationCard(affirmation: Affirmation, modifier: Modifier = Modifier) {
-    Card(modifier = Modifier.padding(8.dp), elevation = 4.dp) {
+    Card(modifier = Modifier.padding(28.dp), elevation = 4.dp) {
         Column {
             Image(
                 painter = painterResource(id = affirmation.imageResourceId),
@@ -81,7 +81,7 @@ fun AffirmationCard(affirmation: Affirmation, modifier: Modifier = Modifier) {
             )
             Text(
                 text = stringResource(id = affirmation.stringResourceId),
-                modifier = Modifier.padding(16.dp),
+                modifier = Modifier.padding(15.dp),
                 style = MaterialTheme.typography.h6
             )
         }
