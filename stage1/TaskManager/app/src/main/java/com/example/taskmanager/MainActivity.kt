@@ -45,7 +45,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Image(painter = image, contentDescription = "")
+        Image(
+            painter = image,
+            contentDescription = ""
+        )
         Text(
             text = "All tasks completed",
             fontWeight = FontWeight.Bold,
