@@ -18,6 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ArtSpaceTheme {
                 // A surface container using the 'background' color from the theme
+                /** Art Space 프로젝트는 굳이 안해도 될듯 */
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
